@@ -47,8 +47,6 @@ public class GunScript : MonoBehaviour
             nextTimeForFire = Time.time + 1f / fireRate;
             Shoot();
         }
-
-        Debug.Log(currentAmmo);
     }
   
     void Shoot()

@@ -718,7 +718,12 @@ public class FirstPersonAIO : MonoBehaviour {
         #endregion
     }
 
- 
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("HIT");
+    }
+
+
 
     public IEnumerator CameraShake(float Duration, float Magnitude){
         float elapsed =0;
